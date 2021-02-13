@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background:white
+
+  }
+  
+  .container {
+    background-color: black(255,255,255,1);
+    padding: 10px;
+  }
+  
+  h3 {
+    font-family: 'Orbitron';
+    font-weight: 900;
+    text-transform: uppercase;
+    
+  }
+  
+  h5 {
+    font-weight: 300;
+  }
+  
+  label {
+    font-weight: 300;
+  }
+  
+  .fov label {
+    font-weight: 500;
+  }
+  
+  input[type="number"].fault {
+    background-color: rgba(235,35,45,0.5);
+  }
+  
+  .header, .resultReset, .secondBorder, .fov, .conversionEnd {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 10px solid rgba(45,50,140,1);
+  }
+  
+  .secondBorder {
+    background-color: rgba(45,50,140,0.5);
+    margin: 0;
+  }
+  
+  .calculate, .conversionSeparator {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed rgba(45,50,140,1);
+  }
+  
+  .conversionMargin {
+    margin-top: 20px;
+  }
+  
+  .laptime, .duration, .calculate, .resultsTitle, .fovTitle, .unitsTitle {
+    padding-top: 1.5rem;
+  }
+  
+  .noMargin {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .labelMargin {
+    margin-bottom: .5rem;
+  }
+  
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  textarea:focus,
+  select:focus {
+    border: 1px solid rgba(235,35,45,1);
+  }
+  
+  a:hover {
+    color: rgba(235,35,45,1);
+  }
+  
+  input[type="checkbox"]:checked,
+  input[type="checkbox"]:hover {
+    color: rgba(235,35,45,1);
+    border-color: rgba(235,35,45,1);
+  }
+  
+  button.button-primary {
+    background-color: rgba(45,50,140,0.5);
+    border-color: rgba(45,50,140,0.5);
+  }
+  
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus {
+    background-color: rgba(45,50,140,1);
+    border-color: rgba(45,50,140,1);
+    color: #fff;
+  }
+  
+  .button-primary.reset,
+  button.button-primary.reset {
+    background-color: rgba(235,35,45,0.5);
+    border-color: rgba(235,35,45,0.5);
+    color: #fff;
+  }
+  
+  .button.button-primary.reset:hover,
+  button.button-primary.reset:hover,
+  .button.button-primary.reset:focus,
+  button.button-primary.reset:focus {
+    background-color: rgba(235,35,45,1);
+    border-color: rgba(235,35,45,1);
+    color: #fff;
+  }
